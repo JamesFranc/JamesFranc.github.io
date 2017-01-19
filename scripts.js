@@ -1,6 +1,6 @@
 window.onscroll = function(){
   console.log(window.pageYOffset);
-  var nav = document.getElementById('nav-bar');
+  var nav = document.getElementById('nav');
   if(window.pageYOffset >200){
     nav.classList.add("navbar1");
       }
