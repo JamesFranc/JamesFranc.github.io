@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+.hero-screen{
+  height:100vh;
+  line-height: 100vh;
+  font-weight: 500;
+  font-size: xx-large;
+  background-color: #607D8B;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.about{
+  height:50vh;
+}
+.projects{
+  height:50vh;
+}
+.push-footer{
+  height:50px;
+}
+.social-media-footer{
+  height:50px;
+  line-height: 50px;
+  text-align: center;
+}
