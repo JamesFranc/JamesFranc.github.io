@@ -35,15 +35,22 @@ body{
 .project-collection{
  float: left;
 }
+.grid{
+  position: relative;
+  text-align:center;
+}
 .col{
-  display: block;
   float:left;
   margin: 1% 0 1% 1.6%;
+  display:inline-block;
+  margin: 10px;
 }
 .row{
     overflow:hidden; /*make sure the wrapper has no dimension*/
     margin-bottom:10px;
     text-align: center;
+    display:inline-block;
+    margin: 10px;
 }
 .box {
   /*display: block;*/
