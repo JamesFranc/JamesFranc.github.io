@@ -41,4 +41,19 @@ body{
   height:50px;
   line-height: 50px;
   text-align: center;
+  background: #607D8B;
+}
+
+.social-media-footer.a{
+  cursor: auto;
+}
+
+.navbar-button{
+  border: none;
+    padding: 8px 16px;
+    display: block;
+    color: #000;
+}
+.navbar-button:hover{
+  color:rgb(46, 152, 255);
 }
