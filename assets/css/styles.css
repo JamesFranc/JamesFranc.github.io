@@ -52,11 +52,31 @@ body{
 }
 .nav a:hover {
   text-decoration:underline;
-  /*background-color: #FFC107;*/
 }
 .nav a.active {
   cursor: default;
   box-shadow: inset 0 -5px 0 #FFC107;
+
+.social-media-footer{
+  height:50px;
+  line-height: 50px;
+  text-align: center;
+  background: #607D8B;
+  font-size: 1.6em;
+}
+
+.social-media-footer.a{
+  cursor: auto;
+}
+
+.navbar-button{
+    border: none;
+    padding: 8px 16px;
+    display: block;
+    color: #000;
+}
+.navbar-button:hover{
+  color:#FFC107;
 }
 .nav li.active{
   border-bottom: 1px solid #FFC107;
