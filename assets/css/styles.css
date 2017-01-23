@@ -42,12 +42,11 @@ body{
   line-height: 50px;
   text-align: center;
   background: #607D8B;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
 .social-media-footer.a{
   cursor: auto;
-
 }
 
 .navbar-button{
@@ -57,5 +56,5 @@ body{
     color: #000;
 }
 .navbar-button:hover{
-  color:rgb(46, 152, 255);
+  color:#FFC107;
 }
