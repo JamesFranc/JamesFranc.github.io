@@ -48,7 +48,7 @@ body{
 }
 
 .projects{
-  height:350px;
+  height:100vh;
   display: block;
 }
 .grid{
@@ -130,7 +130,7 @@ body{
 }
 
 .about{
-  height:350px;
+  height:100vh;
   display: block;
 }
 
