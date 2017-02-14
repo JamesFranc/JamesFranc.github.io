@@ -130,7 +130,12 @@ body{
 }
 .about{
   height:100vh;
+}
+.bio{
+  margin-top: 40px;
   display: inline-block;
+  font-size: 1.6em;
+  text-align: center;
 }
 
 .social-media-footer.a{
@@ -151,7 +156,7 @@ body{
 }
 
 .section:target {
-    padding-top: 50px;
+  padding-top: 20px;
 }
 .page-wrap{
   min-height: 100vh;
