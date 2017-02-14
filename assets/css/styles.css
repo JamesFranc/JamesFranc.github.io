@@ -3,8 +3,6 @@
 }
 html, body {
   height: 100%;
-  width: 100% !Important;
-  overflow-x: hidden; 
 }
 body{
   font-family: 'Lato', sans-serif;
@@ -76,11 +74,9 @@ body{
   margin-bottom:10px;
   text-align: center;
   display:inline-block;
-  margin: 10px;
   width: 100%;
 }
 .box {
-  /*display: block;*/
   float:center;
   width:250px;
   height:250px;
