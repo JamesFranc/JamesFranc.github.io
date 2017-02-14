@@ -3,9 +3,22 @@
 }
 html, body {
   height: 100%;
+  width: 100% !Important;
+  overflow-x: hidden; 
 }
 body{
   font-family: 'Lato', sans-serif;
+  display: block;
+}
+.page-wrap{
+  min-height: 100vh;
+  margin-bottom: -50px;
+  display: inline-block;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
 }
 /*--Navbar related--*/
 #nav {
@@ -131,17 +144,6 @@ body{
 }
 .about{
   height:100vh;
-  display: block;
-}
-
-.page-wrap{
-  min-height: 100vh;
-  margin-bottom: -50px;
-  display: inline-block;
-}
-
-.page-wrap:after {
-  content: "";
   display: block;
 }
 
