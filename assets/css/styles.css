@@ -134,13 +134,12 @@ body{
   margin: 0;
 }
 .projects{
-  height:100vh;
   display: block;
   margin-top: auto;
 }
 .about{
   height:100vh;
-  display: block;
+  display: inline-block;
 }
 
 .social-media-footer.a{
