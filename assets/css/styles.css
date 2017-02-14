@@ -127,12 +127,14 @@ body{
 .projects{
   display: block;
   margin-top: auto;
+  margin-bottom: 40px;
 }
 .about{
-  height:100vh;
+  height:auto;
 }
 .bio{
   margin-top: 40px;
+  margin-bottom: 40px;
   display: inline-block;
   font-size: 1.6em;
   text-align: center;
