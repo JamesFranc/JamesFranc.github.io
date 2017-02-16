@@ -1,194 +1,220 @@
 * {
-  margin: 0;
+    margin: 0;
 }
-html, body {
-  height: 100%;
+
+html,
+body {
+    height: 100%;
 }
-body{
-  font-family: 'Lato', sans-serif;
-  display: block;
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: block;
 }
+
 
 /*--Navbar related--*/
+
 #nav {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  position: fixed;
-  width: 100%;
-  height: 40px;
-  background: #607D8B;
-  transition: top 0.2s ease-in-out;
-  z-index: 99999;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #607d8b;
+    transition: top 0.2s ease-in-out;
+    text-align: center;
+    display: inline-block;
+    z-index: 99999;
 }
 
-.nav, .page-wrap:before{
-  height:-70px;
-  line-height: 40px;
-  text-align: center;
+.nav,
+.page-wrap:before {
+    height: -170px;
+    line-height: 50px;
+    text-align: center;
 }
 
 .nav-up {
-    top: -70px;
-}
-.nav-down{
-  top: 0;
+    top: -170px;
 }
 
-.nav ul{
-  list-style: none;
-  background-color:#607D8B;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+.nav-down {
+    top: 0;
 }
 
-.nav li{
-  font-size: 30px;
-  line-height: 50px;
-  height:50px;
-  width: 120px;
-  font-size: 1.4em;
-}
-
-.grid{
-  position: relative;
-  text-align:center;
-  display: inline-block;
-}
-.col{
-  float:left;
-  margin: 1% 0 1% 1.6%;
-  display:inline-block;
-  margin: 10px;
-}
-.row{
-  overflow:hidden; /*make sure the wrapper has no dimension*/
-  margin-bottom:10px;
-  text-align: center;
-  display:inline-block;
-  width: 100%;
-}
-.box {
-  float:center;
-  width:225px;
-  height:225px;
-  line-height:225px;
-  text-align: center;
-  background:#bbb;
-  margin:10px;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 3px;
-}
-.photo-box {
-  float:center;
-  width:195px;
-  height:255px;
-  line-height:250px;
-  text-align: center;
-  background:#bbb;
-  margin:10px;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 3px;
-}
-
-.nav a{
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-  transition: .3s background-color;
+.nav ul {
+    list-style: none;
+    background-color: #607d8b;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .nav li {
-  display: inline-block;
-  margin-right: -4px;
+    font-size: 30px;
+    line-height: 50px;
+    height: 43px;
+    width: 120px;
+    font-size: 1.4em;
 }
-.nav a:hover {
-  text-decoration:underline;
-}
-.nav a.active {
-  cursor: default;
-  box-shadow: inset 0 -5px 0 #FFC107;
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: .3s background-color;
 }
 
-.navbar-button{
-  border: none;
-  padding: 8px 16px;
-  display: block;
-  color: #000;
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
 }
-.navbar-button:hover{
-  color:#FFC107;
+.nav li:hover {
+  list-style-position: inside;
+  border-bottom: 10px solid #ffc107;
 }
-.nav li.active{
-  border-bottom: 1px solid #FFC107;
+.grid {
+    position: relative;
+    text-align: center;
+    display: inline-block;
 }
-/*@media screen and (min-width: 600px) {*/
+
+.col {
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.row {
+    overflow: hidden;
+    /*make sure the wrapper has no dimension*/
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.box {
+    float: center;
+    width: 225px;
+    height: 225px;
+    line-height: 225px;
+    text-align: center;
+    background: #bbb;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+.photo-box {
+    float: center;
+    width: 195px;
+    height: 255px;
+    line-height: 250px;
+    text-align: center;
+    background: #bbb;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+
+
+.initials {
+    position: absolute;
+    left: 0;
+}
+
+.navbar-button {
+    border: none;
+    padding: 8px 16px;
+    display: block;
+    color: #000;
+}
+
+.navbar-button:hover {
+    color: #ffc107;
+}
+
+.nav li.active {
+    border-bottom: 1px solid #ffc107;
+}
+
 
 /*Content related*/
-.hero-screen{
-  height:100%;
-  line-height: 100vh;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: xx-large;
-  background-color: #607D8B;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.projects{
-  display: block;
-  margin-top: auto;
-  margin-bottom: 40px;
-}
-.about{
-  height:auto;
-  margin: 10px;
-}
-.bio{
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: inline-block;
-  font-size: 1.6em;
-  text-align: center;
+
+.hero-screen {
+    height: 100%;
+    line-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    background-color: #607d8b;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-.social-media-footer.a{
-  cursor: auto;
+.projects {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 40px;
 }
-.social-media-footer, .page-wrap:after{
-  height:50px;
-  line-height: 50px;
-  text-align: center;
+
+.about {
+    height: auto;
+    margin: 10px;
 }
-.social-media-footer{
-  height:50px;
-  line-height: 50px;
-  text-align: center;
-  background: #607D8B;
-  font-size: 1.6em;
-  margin-bottom: 0;
+
+.bio {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.social-media-footer.a {
+    cursor: auto;
+}
+
+.social-media-footer,
+.page-wrap:after {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-media-footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #607d8b;
+    font-size: 1.6em;
+    margin-bottom: 0;
 }
 
 .section:target {
-  padding-top: 20px;
+    padding-top: 20px;
 }
-.page-wrap{
-  min-height: 100vh;
-  margin-bottom: -50px;
-  display: inline-block;
+
+.page-wrap {
+    min-height: 100vh;
+    margin-bottom: -50px;
+    display: inline-block;
 }
 
 .page-wrap:after {
-  content: "";
-  display: block;
+    content: "";
+    display: block;
 }
+
 .resize_fit_center {
     margin: 5px;
-    max-width:95%;
-    max-height:95%;
+    max-width: 95%;
+    max-height: 95%;
     vertical-align: middle;
     border-radius: 3px;
 }
