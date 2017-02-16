@@ -69,14 +69,27 @@ body{
 }
 .box {
   float:center;
-  width:250px;
-  height:250px;
+  width:225px;
+  height:225px;
+  line-height:225px;
+  text-align: center;
+  background:#bbb;
+  margin:10px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+.photo-box {
+  float:center;
+  width:195px;
+  height:255px;
   line-height:250px;
   text-align: center;
   background:#bbb;
   margin:10px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 3px;
 }
 
 .nav a{
@@ -169,4 +182,11 @@ body{
 .page-wrap:after {
   content: "";
   display: block;
+}
+.resize_fit_center {
+    margin: 5px;
+    max-width:95%;
+    max-height:95%;
+    vertical-align: middle;
+    border-radius: 3px;
 }
