@@ -182,6 +182,8 @@ li.initials {
 	}
 }
 
+
+/*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
 .hero-container {
 	box-sizing: border-box;
 	height: auto;
