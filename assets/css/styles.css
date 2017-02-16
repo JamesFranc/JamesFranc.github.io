@@ -223,6 +223,9 @@ li.initials {
     .navbar-button {
         font-size: 1.4em;
     }
+    .nav li {
+        width: 100px;
+    }
 }
 
 @media all and (max-width: 599px) and (min-width: 320px) {
@@ -231,5 +234,8 @@ li.initials {
     }
     .navbar-button {
         font-size: 1.4em;
+    }
+    .nav li {
+        width: 80px;
     }
 }
