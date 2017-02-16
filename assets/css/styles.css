@@ -72,6 +72,17 @@ body {
   list-style-position: inside;
   border-bottom: 10px solid #ffc107;
 }
+
+li.initials {
+    position: absolute;
+    left: 0;
+    text-align: left;
+    margin-left: 2px;
+    width: 30px;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
 .grid {
     position: relative;
     text-align: center;
@@ -118,16 +129,6 @@ body {
     display: inline-block;
     vertical-align: middle;
     border-radius: 3px;
-}
-
-
-
-li.initials {
-    position: absolute;
-    left: 0;
-    text-align: left;
-    margin-left: 2px;
-    width: 30px;
 }
 
 .navbar-button {
