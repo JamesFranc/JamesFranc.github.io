@@ -2,8 +2,7 @@
     margin: 0;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -11,9 +10,6 @@ body {
     font-family: 'Lato', sans-serif;
     display: block;
 }
-
-
-/*--Navbar related--*/
 
 #nav {
     font-family: 'Raleway', sans-serif;
@@ -28,8 +24,7 @@ body {
     z-index: 99999;
 }
 
-.nav,
-.page-wrap:before {
+.nav, .page-wrap:before {
     height: -170px;
     line-height: 50px;
     text-align: center;
@@ -58,6 +53,7 @@ body {
     width: 120px;
     font-size: 1.4em;
 }
+
 .nav a {
     text-decoration: none;
     color: black;
@@ -68,9 +64,10 @@ body {
     display: inline-block;
     margin-right: -4px;
 }
+
 .nav li:hover {
-  list-style-position: inside;
-  border-bottom: 10px solid #ffc107;
+    list-style-position: inside;
+    border-bottom: 10px solid #ffc107;
 }
 
 li.initials {
@@ -98,7 +95,6 @@ li.initials {
 
 .row {
     overflow: hidden;
-    /*make sure the wrapper has no dimension*/
     margin-bottom: 10px;
     text-align: center;
     display: inline-block;
@@ -147,9 +143,6 @@ li.initials {
     border-bottom: 1px solid #ffc107;
 }
 
-
-/*Content related*/
-
 .hero-screen {
     height: 100%;
     line-height: 100vh;
@@ -185,8 +178,7 @@ li.initials {
     cursor: auto;
 }
 
-.social-media-footer,
-.page-wrap:after {
+.social-media-footer, .page-wrap:after {
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -225,19 +217,19 @@ li.initials {
 }
 
 @media all and (max-width: 959px) and (min-width: 600px) {
-    body{
+    body {
         font-size: 14px;
     }
-    .navbar-button{
-      font-size: 1.4em;
+    .navbar-button {
+        font-size: 1.4em;
     }
 }
 
 @media all and (max-width: 599px) and (min-width: 320px) {
-    body{
+    body {
         font-size: 12px;
     }
-    .navbar-button{
-      font-size: 1.4em;
+    .navbar-button {
+        font-size: 1.4em;
     }
 }
