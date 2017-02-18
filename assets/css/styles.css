@@ -1,3 +1,36 @@
+/*Begin media queries to add some site responsiveness*/
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .navbar-button {
+        font-size: 1.4em;
+    }
+    .nav li {
+        width: 100px;
+    }
+    li.initials {
+        text-align: center;
+        width: 30px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+    .navbar-button {
+        font-size: 1.4em;
+    }
+    .nav li {
+        width: 80px;
+    }
+    li.initials {
+        text-align: center;
+        width: 30px;
+    }
+}
+
 * {
     margin: 0;
     /*The following lines should only be used for debugging unwanted overflow space*/
@@ -71,6 +104,22 @@ body {
     transition: .3s background-color;
 }
 
+.navbar-button {
+    border: none;
+    padding: 8px 16px;
+    display: block;
+    color: white;
+    font-size: 1.4em !important;
+}
+
+.navbar-button:hover {
+    color: #ffc107;
+}
+
+.nav li.active {
+    border-bottom: 1px solid #ffc107;
+}
+
 .grid {
     position: relative;
     text-align: center;
@@ -104,23 +153,6 @@ body {
     vertical-align: middle;
     border-radius: 3px;
 }
-
-.navbar-button {
-    border: none;
-    padding: 8px 16px;
-    display: block;
-    color: white;
-    font-size: 1.4em !important;
-}
-
-.navbar-button:hover {
-    color: #ffc107;
-}
-
-.nav li.active {
-    border-bottom: 1px solid #ffc107;
-}
-
 
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
 
@@ -203,12 +235,6 @@ body {
     color: #000;
 }
 
-.projects {
-    display: block;
-    margin-top: auto;
-    margin-bottom: 40px;
-}
-
 .about {
     height: auto;
     margin: 10px;
@@ -221,6 +247,20 @@ body {
     font-size: 1.3em;
     text-align: center;
     width: 70%;
+}
+
+.projects {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
+
+.section:target {
+    padding-top: 10px;
+}
+
+#projects.section:target{
+  padding-top:50px;
 }
 
 .social-media-footer.a {
@@ -242,10 +282,6 @@ body {
     margin-bottom: 0;
 }
 
-.section:target {
-    padding-top: 20px;
-}
-
 .page-wrap {
     min-height: 100vh;
     margin-bottom: -50px;
@@ -255,44 +291,4 @@ body {
 .page-wrap:after {
     content: "";
     display: block;
-}
-
-.resize_fit_center {
-    margin: 5px;
-    max-width: 95%;
-    max-height: 95%;
-    vertical-align: middle;
-    border-radius: 3px;
-}
-
-@media all and (max-width: 959px) and (min-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    .navbar-button {
-        font-size: 1.4em;
-    }
-    .nav li {
-        width: 100px;
-    }
-    li.initials {
-        text-align: center;
-        width: 30px;
-    }
-}
-
-@media all and (max-width: 599px) and (min-width: 320px) {
-    body {
-        font-size: 12px;
-    }
-    .navbar-button {
-        font-size: 1.4em;
-    }
-    .nav li {
-        width: 80px;
-    }
-    li.initials {
-        text-align: center;
-        width: 30px;
-    }
 }
