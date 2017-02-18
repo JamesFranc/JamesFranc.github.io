@@ -1,5 +1,10 @@
 * {
     margin: 0;
+    /*The following lines should only be used for debugging unwanted overflow space*/
+    /*Learned from Kyle Werner*/
+    /*background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;*/
 }
 
 html, body {
@@ -51,7 +56,6 @@ body {
     height: 43px;
     width: 120px;
     font-size: 1.4em;
-
 }
 
 .nav a {
@@ -121,7 +125,7 @@ body {
     border: none;
     padding: 8px 16px;
     display: block;
-    color:white;
+    color: white;
     font-size: 1.4em !important;
 }
 
@@ -133,7 +137,9 @@ body {
     border-bottom: 1px solid #ffc107;
 }
 
+
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
+
 .hero {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -187,7 +193,6 @@ body {
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 45vh;
-    /*margin: 5px 0;*/
     text-align: left;
     width: 65%;
     text-shadow: 1px 1px 1px #000;
@@ -195,27 +200,29 @@ body {
         font-size: 3vw;
     }
 }
-.hero-subtitle{
-  color:white;
-  font-family: $font-serif;
-  margin-top: 5vh;
-  text-shadow: 1px 1px 1px #000;
+
+.hero-subtitle {
+    color: white;
+    font-family: $font-serif;
+    margin-top: 5vh;
+    text-shadow: 1px 1px 1px #000;
 }
+
 .ghost-button {
-  display: inline-block;
-  width: 90px;
-  padding: 8px;
-  color: #fff;
-  border: 1px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  margin-top: 2vh;
+    display: inline-block;
+    width: 90px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    margin-top: 2vh;
 }
-.ghost-button:hover,
-.ghost-button:active {
-  background-color: #fff;
-  color: #000;
+
+.ghost-button:hover, .ghost-button:active {
+    background-color: #fff;
+    color: #000;
 }
 
 .projects {
@@ -243,13 +250,13 @@ body {
 
 .social-media-footer, .page-wrap:after {
     height: 50px;
-    line-height: 50px;
+    line-height: 45px;
     text-align: center;
 }
 
 .social-media-footer {
-    height: 50px;
-    line-height: 50px;
+    height: 55px;
+    line-height: 55px;
     text-align: center;
     background: #3e5c87;
     font-size: 1.6em;
