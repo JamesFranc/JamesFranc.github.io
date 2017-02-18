@@ -17,7 +17,7 @@ body {
     position: fixed;
     width: 100%;
     height: 53px;
-    background: #607d8b;
+    background: #3e5c87;
     transition: top 0.3s ease-in-out;
     text-align: center;
     display: inline-block;
@@ -51,11 +51,12 @@ body {
     height: 43px;
     width: 120px;
     font-size: 1.4em;
+
 }
 
 .nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: .3s background-color;
 }
 
@@ -67,16 +68,6 @@ body {
 .nav li:hover {
     list-style-position: inside;
     border-bottom: 10px solid #ffc107;
-}
-
-li.initials {
-    position: absolute;
-    left: 0;
-    text-align: left;
-    margin-left: 10px;
-    width: 30px;
-    font-size: 1.6em;
-    font-weight: bolder;
 }
 
 .grid {
@@ -130,7 +121,7 @@ li.initials {
     border: none;
     padding: 8px 16px;
     display: block;
-    color: #000;
+    color:white;
     font-size: 1.4em !important;
 }
 
@@ -141,20 +132,6 @@ li.initials {
 .nav li.active {
     border-bottom: 1px solid #ffc107;
 }
-
-
-/*
-.hero-screen {
-    height: 100%;
-    line-height: 100vh;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 3em;
-    background-color: #607d8b;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}*/
 
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
 .hero {
@@ -274,7 +251,7 @@ li.initials {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #607d8b;
+    background: #3e5c87;
     font-size: 1.6em;
     margin-bottom: 0;
 }
