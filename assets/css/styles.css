@@ -141,6 +141,8 @@ li.initials {
 .nav li.active {
     border-bottom: 1px solid #ffc107;
 }
+
+
 /*
 .hero-screen {
     height: 100%;
@@ -153,74 +155,91 @@ li.initials {
     padding: 0;
     margin: 0;
 }*/
-.hero {
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-  /* needed to prevent janky scrolling in Safari*/
-  backface-visibility: hidden;
-  /*100% height of the viewport*/
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-
-	@media screen and (min-width:640px) {
-		background-position: 50% 0;
-	}
-
-	/*Add a slight overlay on our image*/
-	&:after {
-		background-color: rgba(62,92,135,.5);
-		bottom: 0;
-		content: '';
-		left: -2000%;
-		position: absolute;
-		right: -2000%;
-		top: 0;
-		z-index: 1;
-	}
-}
-
 
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
+.hero {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* needed to prevent janky scrolling in Safari*/
+    backface-visibility: hidden;
+    /*100% height of the viewport*/
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    @media screen and (min-width: 640px) {
+        background-position: 50% 0;
+    }
+    /*Add a slight overlay on our image*/
+    &:after {
+        background-color: rgba(62, 92, 135, .5);
+        bottom: 0;
+        content: '';
+        left: -2000%;
+        position: absolute;
+        right: -2000%;
+        top: 0;
+        z-index: 1;
+    }
+}
+
 .hero-container {
-	box-sizing: border-box;
-	height: auto;
-	padding: 30px 50px;
-	position: relative;
-	z-index: 2;
-background-color: rgba(62,92,135,.5);
-  /*set our fade for when the JS kicks in on scroll*/
-  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 30px 50px;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(62, 92, 135, .5);
+    /*set our fade for when the JS kicks in on scroll*/
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
     -webkit-transition-duration: 1.2s;
     transition-duration: 1.2s;
-
-	@media screen and (min-width:640px) {
-		height: 100%;
-	}
+    @media screen and (min-width: 640px) {
+        height: 100%;
+    }
 }
 
 .hero-title {
-	color: white;
-	font-family: $font-serif;
-  /*Respond to viewport width–works well since*/
-  /*we're sizing the image according viewport height*/
-	font-size: 7vw;
-	font-weight: 500;
-	letter-spacing: 1px;
-  line-height: 140vh;
-  margin: 5px 0;
-  text-align: center;
-  width: 85%;
-
-
-  @media screen and (min-width:640px) {
-		font-size: 10vw;
-	}
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    /*Respond to viewport width–works well since*/
+    /*we're sizing the image according viewport height*/
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 45vh;
+    /*margin: 5px 0;*/
+    text-align: left;
+    width: 65%;
+    text-shadow: 1px 1px 1px #000;
+    @media screen and (min-width: 640px) {
+        font-size: 3vw;
+    }
 }
-
+.hero-subtitle{
+  color:white;
+  font-family: $font-serif;
+  margin-top: 5vh;
+  text-shadow: 1px 1px 1px #000;
+}
+.ghost-button {
+  display: inline-block;
+  width: 90px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-top: 2vh;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
 
 .projects {
     display: block;
@@ -293,7 +312,7 @@ background-color: rgba(62,92,135,.5);
     .nav li {
         width: 100px;
     }
-    li.initials{
+    li.initials {
         text-align: center;
         width: 30px;
     }
@@ -309,7 +328,7 @@ background-color: rgba(62,92,135,.5);
     .nav li {
         width: 80px;
     }
-    li.initials{
+    li.initials {
         text-align: center;
         width: 30px;
     }
