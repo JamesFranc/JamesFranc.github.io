@@ -56,15 +56,6 @@ body {
     height: 43px;
     width: 120px;
     font-size: 1.4em;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    transition: .3s background-color;
-}
-
-.nav li {
     display: inline-block;
     margin-right: -4px;
 }
@@ -72,6 +63,12 @@ body {
 .nav li:hover {
     list-style-position: inside;
     border-bottom: 10px solid #ffc107;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition: .3s background-color;
 }
 
 .grid {
@@ -101,20 +98,7 @@ body {
     height: 225px;
     line-height: 225px;
     text-align: center;
-    background: #bbb;
-    margin: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 3px;
-}
-
-.photo-box {
-    float: center;
-    width: 195px;
-    height: 255px;
-    line-height: 250px;
-    text-align: center;
-    background: #bbb;
+    background-color: rgba(62, 92, 135, .5);
     margin: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -146,7 +130,6 @@ body {
     background-size: cover;
     /* needed to prevent janky scrolling in Safari*/
     backface-visibility: hidden;
-    /*100% height of the viewport*/
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -154,7 +137,7 @@ body {
     @media screen and (min-width: 640px) {
         background-position: 50% 0;
     }
-    /*Add a slight overlay on our image*/
+    /*Blue overlay for hero image*/
     &:after {
         background-color: rgba(62, 92, 135, .5);
         bottom: 0;
@@ -174,11 +157,6 @@ body {
     position: relative;
     z-index: 2;
     background-color: rgba(62, 92, 135, .5);
-    /*set our fade for when the JS kicks in on scroll*/
-    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-    -webkit-transition-duration: 1.2s;
-    transition-duration: 1.2s;
     @media screen and (min-width: 640px) {
         height: 100%;
     }
@@ -242,6 +220,7 @@ body {
     display: inline-block;
     font-size: 1.3em;
     text-align: center;
+    width: 70%;
 }
 
 .social-media-footer.a {
