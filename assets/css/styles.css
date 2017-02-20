@@ -1,8 +1,21 @@
 /*Begin media queries to add some site responsiveness*/
+
 @media all and (max-width: 959px) and (min-width: 600px) {
     body {
         font-size: 14px;
     }
+    .hero {
+        background-position: 65% 50% !important;
+    }
+    .hero-title {
+        margin-top: 70vh !important;
+        width: 70% !important;
+    }
+    .hero-subtitle {
+        margin-top: 1vh !important;
+        width: 55%;
+    }
+    .ghost-button {}
     .navbar-button {
         font-size: 1.4em;
     }
@@ -19,6 +32,19 @@
     body {
         font-size: 12px;
     }
+    .hero {
+        background-position: 65% 50% !important;
+    }
+    .hero-title {
+        margin-top: 70vh !important;
+        width: 70% !important;
+    }
+    .hero-subtitle {
+        font-size: 10px !important;
+        margin-top: 1vh !important;
+        width: 65%;
+    }
+    .ghost-button {}
     .navbar-button {
         font-size: 1.4em;
     }
@@ -154,6 +180,7 @@ body {
     border-radius: 3px;
 }
 
+
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
 
 .hero {
@@ -199,7 +226,7 @@ body {
     font-family: 'Raleway', sans-serif;
     /*Respond to viewport width–works well since*/
     /*we're sizing the image according viewport height*/
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 45vh;
@@ -259,8 +286,8 @@ body {
     padding-top: 10px;
 }
 
-#projects.section:target{
-  padding-top:50px;
+#projects.section:target {
+    padding-top: 50px;
 }
 
 .social-media-footer.a {
