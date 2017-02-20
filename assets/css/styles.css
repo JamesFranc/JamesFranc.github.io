@@ -276,7 +276,11 @@ body {
     display: inline-block;
     font-size: 1.3em;
     text-align: center;
-    width: 60%;
+    width: 65%;
+}
+.bio>p{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .projects {
