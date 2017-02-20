@@ -179,6 +179,10 @@ body {
     border-radius: 3px;
 }
 
+.box>a{
+  color: black;
+  text-decoration: none;
+}
 
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
 
@@ -272,7 +276,7 @@ body {
     display: inline-block;
     font-size: 1.3em;
     text-align: center;
-    width: 70%;
+    width: 60%;
 }
 
 .projects {
