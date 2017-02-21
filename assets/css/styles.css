@@ -80,7 +80,7 @@ body {
     position: fixed;
     width: 100%;
     height: 53px;
-    background: #3e5c87;
+    background: #32686F;
     transition: top 0.3s ease-in-out;
     text-align: center;
     display: inline-block;
@@ -179,23 +179,28 @@ body {
     border-radius: 3px;
 }
 
-.box>a{
-  color: black;
-  text-decoration: none;
+.box>a {
+    color: black;
+    text-decoration: none;
 }
+
 
 /*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
 
 .hero {
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    -ms-background-size: cover;
     /* needed to prevent janky scrolling in Safari*/
     backface-visibility: hidden;
     height: 100vh;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 100vw;
     @media screen and (min-width: 640px) {
         background-position: 50% 0;
     }
@@ -278,9 +283,10 @@ body {
     text-align: center;
     width: 65%;
 }
-.bio>p{
-  margin-top: 5%;
-  margin-bottom: 5%;
+
+.bio>p {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .projects {
@@ -311,7 +317,7 @@ body {
     height: 55px;
     line-height: 55px;
     text-align: center;
-    background: #3e5c87;
+    background: #32686F;
     font-size: 1.6em;
     margin-bottom: 0;
 }
