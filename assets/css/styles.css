@@ -308,7 +308,7 @@ body {
   line-height: 25px;
   height: 235px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   background-color: rgba(50, 104, 111, .5);
   text-shadow: 1px 1px 1px #000;
 
