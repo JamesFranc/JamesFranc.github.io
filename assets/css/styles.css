@@ -1,5 +1,23 @@
-/*Begin media queries to add some site responsiveness*/
+* {
+  margin: 0;
+  /*The following lines should only be used for debugging unwanted overflow space*/
+  /*Learned from Kyle Werner*/
+  /*background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;*/
+}
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: block;
+}
+
+/*Begin media queries to add some site responsiveness*/
 @media all and (max-width: 959px) and (min-width: 600px) {
   body {
     font-size: 14px;
@@ -66,25 +84,7 @@
     width: 30px;
   }
 }
-
-* {
-  margin: 0;
-  /*The following lines should only be used for debugging unwanted overflow space*/
-  /*Learned from Kyle Werner*/
-  /*background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;*/
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  display: block;
-}
+/*--End Media Queries--*/
 
 #nav {
   font-family: 'Raleway', sans-serif;
@@ -96,14 +96,7 @@ body {
   transition: top 0.3s ease-in-out;
   text-align: center;
   display: inline-block;
-  z-index: 99999;
-}
-
-.nav,
-.page-wrap:before {
-  height: -170px;
-  line-height: 50px;
-  text-align: center;
+  z-index: 3;
 }
 
 .nav-up {
@@ -139,7 +132,7 @@ body {
 .nav a {
   text-decoration: none;
   color: white;
-  transition: .3s background-color;
+  transition: .3s;
 }
 
 .navbar-button {
@@ -158,97 +151,6 @@ body {
   border-bottom: 1px solid #ffc107;
 }
 
-.grid {
-  position: relative;
-  text-align: center;
-  display: inline-block;
-}
-
-.col {
-  float: left;
-  margin: 1% 0 1% 1.6%;
-  display: inline-block;
-  margin: 10px;
-}
-
-.row {
-  overflow: hidden;
-  margin-bottom: 10px;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-}
-
-.box {
-  float: center;
-  width: 225px;
-  height: 225px;
-  line-height: 225px;
-  text-align: center;
-  background-color: rgba(62, 92, 135, .5);
-  margin: 10px;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 3px;
-}
-
-.box > a {
-  color: black;
-  text-decoration: none;
-}
-
-.card {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-  width: 40%;
-  width: 225px;
-  height: 225px;
-  display: inline-block;
-  text-align: center;
-  margin: 10px;
-  vertical-align: middle;
-  border-radius: 3px;
-  overflow: hidden;
-  /*background-color: rgba(62, 92, 135, .5);*/
-}
-
-.card:hover {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card span {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-}
-
-.card > img,
-.card > span {
-  transition: 0.5s;
-}
-
-.card:hover .test {
-  margin-top: -230px;
-}
-
-.test {
-  line-height: 25px;
-  height: 235px;
-  position: relative;
-  z-index: 2;
-  background-color: rgba(50, 104, 111, .5);
-  text-shadow: 1px 1px 1px #000;
-
-}
-
-.container {
-  padding: 2px 16px;
-  display: inline-block;
-  position: absolute;
-  bottom: -200px;
-}
-
 .nav-up {
   top: -170px;
 }
@@ -257,14 +159,7 @@ body {
   top: 0;
 }
 
-.card > img {
-  width: 225px;
-  height: 225px;
-}
-
-
-/*This hero container code originated from Cameron Campbell: http://codepen.io/cdcampbell26 */
-
+/*This hero container code is based on Cameron Campbell's: http://codepen.io/cdcampbell26 */
 .hero {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -350,6 +245,81 @@ body {
 .ghost-button:active {
   background-color: #fff;
   color: #000;
+}
+.grid {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.col {
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.row {
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  width: 40%;
+  width: 225px;
+  height: 225px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  vertical-align: middle;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card span {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.card > span {
+  transition: 0.5s;
+}
+
+.card:hover .info {
+  margin-top: -230px;
+}
+
+.info {
+  line-height: 25px;
+  height: 235px;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(50, 104, 111, .5);
+  text-shadow: 1px 1px 1px #000;
+
+}
+
+.container {
+  padding: 2px 16px;
+  display: inline-block;
+  position: absolute;
+  bottom: -200px;
+}
+
+img.resize{
+    width:auto; /* you can use % */
+    height: 225px;
 }
 
 .about {
