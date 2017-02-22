@@ -300,6 +300,10 @@ body {
   margin-top: -230px;
 }
 
+.info>p>a{
+  color:#FFFFFF;
+}
+
 .info {
   line-height: 25px;
   height: 235px;
@@ -324,6 +328,7 @@ img.resize{
 
 .about {
   height: auto;
+  width:100%;
   margin: 10px;
 }
 
@@ -333,7 +338,7 @@ img.resize{
   display: inline-block;
   font-size: 1.3em;
   text-align: center;
-  width: 65%;
+  width: 70%;
 }
 
 .bio > p {
