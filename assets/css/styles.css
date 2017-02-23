@@ -15,6 +15,7 @@ body {
 body {
   font-family: 'Lato', sans-serif;
   display: block;
+  overflow-x: hidden;
 }
 
 /*Begin media queries to add some site responsiveness*/
@@ -386,6 +387,7 @@ img.resize{
   height: 50px;
   line-height: 45px;
   text-align: center;
+  width:100vw;
 }
 
 .social-media-footer {
