@@ -15,7 +15,7 @@ body {
 body {
   font-family: 'Lato', sans-serif;
   display: block;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 /*Begin media queries to add some site responsiveness*/
@@ -174,8 +174,7 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  width: 100vw;
-
+  width: 100%;
   @media screen and (min-width: 640px) {
     background-position: 50% 0;
   }
@@ -346,8 +345,8 @@ img.resize{
 
 .about {
   height: auto;
-  width:100%;
-  margin: 10px;
+  width: auto;
+  margin: 0px;
 }
 
 .bio {
@@ -387,7 +386,7 @@ img.resize{
   height: 50px;
   line-height: 45px;
   text-align: center;
-  width:100vw;
+  width:100%;
 }
 
 .social-media-footer {
@@ -403,9 +402,11 @@ img.resize{
   min-height: 100vh;
   margin-bottom: -50px;
   display: inline-block;
+  width:100%
 }
 
 .page-wrap:after {
   content: "";
   display: block;
+  width:100%
 }
