@@ -29,13 +29,14 @@ body {
   }
 
   .hero-title {
-    margin-top: 68vh !important;
+    margin-top: 50vh !important;
     width: 70% !important;
   }
 
   .hero-subtitle {
     margin-top: 1vh !important;
-    width: 55%;
+    width: 50%;
+    font-size: large;
   }
 
   .navbar-button {
@@ -225,8 +226,10 @@ body {
 .hero-subtitle {
   color: white;
   font-family: $font-serif;
-  margin-top: 5vh;
+  margin-top: 3vh;
   text-shadow: 1px 1px 1px #000;
+  font-size: large;
+  width: 55%;
 }
 
 .ghost-button {
