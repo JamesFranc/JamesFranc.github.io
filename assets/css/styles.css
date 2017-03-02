@@ -309,7 +309,7 @@ body {
   height: 235px;
   position: relative;
   z-index: 1;
-  background-color: rgba(50, 104, 111, .5);
+  background-color: rgba(50, 104, 111, .75);
   text-shadow: 1px 1px 1px #000;
 }
 
