@@ -6,40 +6,38 @@
     <title>Jimmy's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/optimized/css/styles.css" />
-    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:500" rel="stylesheet">
     <script type="text/javascript">
-    window.onscroll = function() {
-        var nav = document.getElementById('nav');
-        if (window.pageYOffset > 500) {
-            nav.classList.remove("nav-up");
-            nav.classList.add("nav-down");
-        } else if (window.pageYOffset < 500) {
-            nav.classList.remove("nav-down");
-            nav.classList.add("nav-up");
+        window.onscroll = function() {
+            var nav = document.getElementById('nav');
+            if (window.pageYOffset > 500) {
+                nav.classList.remove("nav-up");
+                nav.classList.add("nav-down");
+            } else if (window.pageYOffset < 500) {
+                nav.classList.remove("nav-down");
+                nav.classList.add("nav-up");
+            }
         }
-    }
     </script>
 </head>
 
 <body>
 
-        <div id="nav" class="nav nav-up">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+    <div id="nav" class="nav nav-up">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 
-        <section class="hero image-as-background" style="background-image: url('assets/images/brickBG.jpg');">
-            <div class="hero-container">
-                <h1 class="hero-title">Hi, I'm Jimmy</h1>
-                <h4 class="hero-subtitle">I am a software engineer, to learn more about me scroll down or</h4>
-                <a href="#about" class="ghost-button" title="Click to see more">Click here</a>
-            </div>
-        </section>
-<div class="page-wrap">
+    <section class="hero image-as-background" style="background-image: url('assets/images/brickBG.jpg');">
+        <div class="hero-container">
+            <h1 class="hero-title">Hi, I'm Jimmy</h1>
+            <h4 class="hero-subtitle">I am a software engineer, to learn more about me scroll down or</h4>
+            <a href="#about" class="ghost-button" title="Click to see more">Click here</a>
+        </div>
+    </section>
+    <div class="page-wrap">
         <div id="about" class="section"></div>
         <div class="grid about">
             <div class="bio">
@@ -74,7 +72,7 @@
                       <p>RPi Map Reduce Project</p>
                   </span>
                 </div>
-                    <div class="card">
+                <div class="card">
                     <span class="info">
                         <h4><b>CMM Global</b></h4>
                         <p>LAMP Stack Project</p>
@@ -84,14 +82,14 @@
                         <ul>
                           <li>
                             <span>User Registration</span>
-                          </li>
-                          <li>
-                            <span>User Reporting</span>
-                          </li>
-                        </ul>
+                    </li>
+                    <li>
+                        <span>User Reporting</span>
+                    </li>
+                    </ul>
                     </span>
 
-                    </div>
+                </div>
 
                 <div class="card">
                     <span class="info">
@@ -103,17 +101,17 @@
                         <ul>
                           <li>
                             <span>Event Scheduling Tool</span>
-                          </li>
-                          <li>
-                            <span>User Registration Tool</span>
-                          </li>
-                          <li>
-                            <span>Reporting utility</span>
-                          </li>
-                          <li>
-                            <span>AWS</span>
-                          </li>
-                        </ul>
+                    </li>
+                    <li>
+                        <span>User Registration Tool</span>
+                    </li>
+                    <li>
+                        <span>Reporting utility</span>
+                    </li>
+                    <li>
+                        <span>AWS</span>
+                    </li>
+                    </ul>
                     </span>
                 </div>
                 <div class="card">
@@ -126,17 +124,17 @@
                         <ul>
                           <li>
                             <span>Employee Schedule Tool</span>
-                          </li>
-                          <li>
-                            <span>User Registration Tool</span>
-                          </li>
-                          <li>
-                            <span>Reporting utility</span>
-                          </li>
-                          <li>
-                            <span>AWS</span>
-                          </li>
-                        </ul>
+                    </li>
+                    <li>
+                        <span>User Registration Tool</span>
+                    </li>
+                    <li>
+                        <span>Reporting utility</span>
+                    </li>
+                    <li>
+                        <span>AWS</span>
+                    </li>
+                    </ul>
                     </span>
                 </div>
                 <div class="card">
@@ -156,10 +154,10 @@
                             <ul>
                               <li>
                                 <span>HTML & CSS</span>
-                              </li>
-                            </ul>
+                    </li>
+                    </ul>
 
-                        <p><a href="https://codepen.io/jamesfranc/pen/WRoaLg" target="_blank">Henrietta Lacks: Tribute Page</a></p>
+                    <p><a href="https://codepen.io/jamesfranc/pen/WRoaLg" target="_blank">Henrietta Lacks: Tribute Page</a></p>
 
                     </span>
                 </div>
@@ -180,5 +178,26 @@
         <a href="mailto:francis.jamesii@gmail.com">
             <i class="fa fa-envelope navbar-button" aria-hidden="true"></i></a>
     </div>
+
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:500" rel="stylesheet">
+</noscript>
+    <script>
+        var loadDeferredStyles = function() {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function() {
+            window.setTimeout(loadDeferredStyles, 0);
+        });
+        else window.addEventListener('load', loadDeferredStyles);
+    </script>
 </body>
+
 </html>
