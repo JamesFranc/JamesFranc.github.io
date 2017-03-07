@@ -8,6 +8,19 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:500" rel="stylesheet">
+    <script type="text/javascript">
+    window.onscroll = function() {
+        // console.log(window.pageYOffset);
+        var nav = document.getElementById('nav');
+        if (window.pageYOffset > 500) {
+            nav.classList.remove("nav-up");
+            nav.classList.add("nav-down");
+        } else if (window.pageYOffset < 500) {
+            nav.classList.remove("nav-down");
+            nav.classList.add("nav-up");
+        }
+    }
+    </script>
 </head>
 
 <body>
@@ -164,6 +177,6 @@
             <i class="fa fa-envelope navbar-button" aria-hidden="true"></i></a>
     </div>
 </body>
-<script src="assets/scripts/scripts.js"></script>
+<!-- <script async src="assets/scripts/scripts.js"></script> -->
 
 </html>
