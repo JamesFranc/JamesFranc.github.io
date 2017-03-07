@@ -317,13 +317,23 @@ body {
 }
 
 .card > span {
-  transition: 0.5s;
+  transition: all 0.2s ease;
 }
 
 .card > div{
   width: 225px;
   height: 225px;
   background-color: #fff;
+}
+
+.card p>a{
+  color:#32686f;
+  transition: all 0.2s ease;
+}
+
+.card:hover p>a{
+  color:#fff;
+  transition: all 0.2s ease;
 }
 
 /*.info {
