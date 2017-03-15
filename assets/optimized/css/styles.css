@@ -73,14 +73,27 @@ p{font-size: 1.2em;}
 
 /* Smartphones start somewhere around here */
 @media (min-width: 300px) {
+  .bio > p{
+    width:250px;
+    font-size: 1em;
+  }
 }
 
 /* You might do landscape phones here if your content seems to need it */
 @media (min-width: 450px) {
+  .bio > p{
+    width:350px;
+    font-size: 1em;
+  }
 }
 
 /* Starting into tablets somewhere in here */
 @media (min-width: 600px) {
+  .bio > p{
+    width:500px;
+    font-size: 1em;
+  }
+
 }
 
 /* Perhaps bigger tablets */
