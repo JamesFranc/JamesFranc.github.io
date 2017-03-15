@@ -64,8 +64,8 @@ li.initials{text-align:center;width:30px;}
 li>span{margin-left:-10px;left:0px;text-align:left;width:180px;}
 .container{padding:2px 16px;display:inline-block;position:absolute;bottom:-200px;}
 .about{height:auto;width:100%;margin:0px;}
-.bio{margin-top:40px;margin-bottom:40px;font-size:1.3em;text-align:center;width:100%;}
-.bio > p{margin:5%;line-height: 1.56em;text-align: left;display: inline-block;}
+.bio{margin-top:40px;margin-bottom:40px;font-size:1.3em;text-align:center;}
+.bio > p{margin:5%; margin-bottom: 0px;line-height: 1.56em;text-align: left;display: inline-block;width:630px;text-indent: 25px;}
 .projects{display:block;margin-top:auto;margin-bottom:40px;width:80%;align-content: center; margin:0 auto;}
 .section:target{padding-top:10px;}
 #projects.section:target{padding-top:50px;}
