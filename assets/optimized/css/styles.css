@@ -93,11 +93,11 @@ p{font-size: 1.2em;}
 
 /* A bit bigger if you need some adjustments around here */
 @media (min-width: 1100px) {
-  #nav{height:60px;line-height:60px;font-size:1.6em;}
-  .nav{height:60px;line-height:60px;font-size:1.6em;}
+  #nav{height:53px;line-height:53px;font-size:1.4em;}
+  .nav{height:53px;line-height:53px;font-size:1.4em;}
 .nav li{
   font-size: 1.6em;
-  width:240px;
+  width:200px;
 }
   .bio > p{
     width:700px;
