@@ -39,6 +39,8 @@ li.initials{text-align:center;width:30px;}
 .ghost-button{display:inline-block;width:90px;padding:8px;color:#fff;border:1px solid #fff;text-align:center;outline:none;text-decoration:none;margin-top:2vh;}
 .ghost-button:hover,
 .ghost-button:active{background-color:#fff;color:#000;}
+/*.git{border:1px solid #32686f;}*/
+.git>.fa{color:#32686f;font-size: 1em; text-align: center; padding:0px;}
 .grid{position:relative;text-align:center;display:inline-block;}
 .col{float:left;margin:1% 0 1% 1.6%;display:inline-block;margin:10px;}
 .row{margin-bottom:10px;text-align:center;display:inline-block;width:100%;}
