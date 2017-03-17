@@ -219,7 +219,7 @@ a p {
     margin: 10px;
 }
 p.post-meta {
-    margin-left: 10px;
+    margin-left: -30px;
 }
 article.post {
     margin: 10px;
