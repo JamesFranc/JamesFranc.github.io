@@ -6,7 +6,8 @@ categories: jekyll first-post portfolio
 ---
 Yeah!
 
-Done this thing.
+Did this thing.
+<!--excerpt-->
 
 Blogging or journaling, don't you dare call it a dairy! #dougFunnyThings, has never really been something I've kept up with.
 That being said, I wanted to start a repository of tips, tricks, cheat-codes and the like when it comes to web development.
