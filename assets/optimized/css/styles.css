@@ -101,10 +101,10 @@ li>span{margin-left:-10px;left:0px;text-align:left;width:180px;}
 .social-media-footer.a{cursor:auto;}
 .social-media-footer,
 .page-wrap:after{height:50px;line-height:45px;text-align:center;width:100%;}
+.social-media-footer{height:55px;line-height:55px;text-align:center;background:#32686f;font-size:1.6em;margin-bottom:0;}
 .blog-footer {
     background: #fff;
 }
-.social-media-footer{height:55px;line-height:55px;text-align:center;background:#32686f;font-size:1.6em;margin-bottom:0;}
 .page-wrap{min-height:100vh;margin-bottom:-50px;display:inline-block;width:100%}
 .page-wrap:after{content:"";display:block;width:100%}
 .jekyllposts{width:90%;display: inline-block;}
