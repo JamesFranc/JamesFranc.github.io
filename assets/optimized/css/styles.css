@@ -196,7 +196,9 @@ p{font-size: 1.2em;}
 
 .post-title{
   color: #aaa;
+  padding-top: 10px;
 }
+
 .post-meta {
   margin-left: -45px;
   margin-top: 2px;
@@ -207,4 +209,10 @@ p{font-size: 1.2em;}
     text-align: center;
     font-size: .75em;
     text-decoration: none;
+}
+a p {
+    font-size: 1.15em;
+    padding-top: .55em;
+    color: #888;
+    margin: 10px;
 }
