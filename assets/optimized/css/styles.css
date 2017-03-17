@@ -225,5 +225,11 @@ article.post {
     margin: 10px;
 }
 article p{
+  margin: 5%;
+  margin-bottom: 0px;
+  line-height: 1.56em;
+  text-align: left;
+  display: inline-block;
   text-indent: 25px;
+  font-size: 1.3em;
 }
