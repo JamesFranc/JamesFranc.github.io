@@ -218,3 +218,12 @@ a p {
     color: #888;
     margin: 10px;
 }
+p.post-meta.page {
+    margin-left: 10px;
+}
+article.post {
+    margin: 10px;
+}
+article p{
+  text-indent: 25px;
+}
