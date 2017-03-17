@@ -213,7 +213,8 @@ p{font-size: 1.2em;}
     padding: 5px;
 }
 a p {
-  border-top-width: small; 
+    border-style: solid;
+    border-top: thin #ccc;
     font-size: 1.15em;
     padding-top: .55em;
     color: #888;
