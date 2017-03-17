@@ -213,6 +213,7 @@ p{font-size: 1.2em;}
     padding: 5px;
 }
 a p {
+  border-top-width: small; 
     font-size: 1.15em;
     padding-top: .55em;
     color: #888;
@@ -232,4 +233,8 @@ article p{
   display: inline-block;
   text-indent: 25px;
   font-size: 1.3em;
+}
+
+a hr{
+  color:#ccc;
 }
