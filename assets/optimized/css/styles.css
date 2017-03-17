@@ -156,12 +156,12 @@ p{font-size: 1.2em;}
   #nav{height:53px;line-height:53px;font-size:1.2em;}
   .nav{height:53px;line-height:53px;font-size:1.2em;}
 .nav li{
-  font-size: 1.2em;
+  font-size: 1.3em;
   width:200px;
 }
   .bio > p{
     width:700px;
-    font-size: 1.3em;
+    font-size: 1.25em;
   }
   .social-media-footer{height:80px;line-height:80px;font-size:2em;}
 }
