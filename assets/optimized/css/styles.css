@@ -19,6 +19,7 @@ li.initials{text-align:center;width:30px;}
 #nav{font-family:'Raleway', sans-serif;font-weight:500;position:fixed;width:100%;height:53px;background:#32686f;transition:top 0.3s ease-in-out;text-align:center;display:inline-block;z-index:3;}
 .nav-up{top:-170px;}
 .nav-down{top:0;}
+.nav-blog{padding-bottom: 5px;}
 .nav ul{list-style:none;text-align:center;padding:0;margin:0;}
 .nav li{line-height:50px;height:43px;width:120px;font-size:1.4em;display:inline-block;margin-right:-4px;}
 .nav li:hover{list-style-position:inside;border-bottom:10px solid #ffc107;}
