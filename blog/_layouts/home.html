@@ -1,29 +1,28 @@
----
-layout: default
----
+--- layout: default ---
 
 <div class="home grid">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading">Posts</h1> {{ content }}
 
-  {{ content }}
-
-  <ul class="post-list row jekyllposts">
-    {% for post in site.posts %}
-    <a class="post-link" href="{{ post.url | relative_url }}">
-      <li class="card">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
+    <ul class="post-list row jekyllposts">
+        {% for post in site.posts %}
+        <a class="post-link" href="{{ post.url | relative_url }}">
+            <li class="card">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h2>
           {{ post.title | escape }}
         </h2>
-        <p>
-           {{ post.content | strip_html | truncatewords:75 }}
-        </p>
-      </li>
-      </a>
-    {% endfor %}
-  </ul>
+                <p>
+                    {{ post.excerpt }}
+                    {% if post.content contains site.excerpt_separator %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
+                    {% endif %}
+                </p>
+            </li>
+        </a>
+        {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | relative_url }}">via RSS</a></p>
 
 </div>
