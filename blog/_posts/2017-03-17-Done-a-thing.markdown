@@ -16,30 +16,35 @@ This site has been a bit of a process for me. Having used AWS in the past for ot
 
 In the coming weeks/months there will be updates on how this site, both the portfolio portion and the blog portion were constructed and designed. Like the portfolio says this was all done with the intent of building my understanding of web fundamentals, the only external resources being used are Font Awesome's super cool font icon library and a Google Font import. Sure, the forever alpha Boostrap4 probably would have worked, as would Skeleton (a really cool lightweight css framework), but I needed the practice and building this all from -index.html- was a task that needed to be done. As a CS major I didn't really focus on UI/UX (here's looking at you Unix/Mac terminal) so this was an endeavor that seemed necessary for my foundational knowledge.
 
-The portfolio page in particular was aimed at being a
+The portfolio page in particular was aimed at using primarily HTML, CSS, with minimal JS and little to no reliance on external libraries. For page load speed, low resource utilization, and just straight simplicity's sake.
 
 Here's a quick rundown of the project:
 
 Infrastructure:
 
+
   Digital Ocean Droplet:
-                OS: Ubuntu 16.04
-         WebServer: Nginx
-          Database: MySQL
-      Preprocessor: PHP
+
+              - OS: Ubuntu 16.04
+         - WebServer: Nginx
+          - Database: MySQL
+      - Preprocessor: PHP
 
   Front End:
-    HTML
-    CSS
-    Javascript
-    Font Awesome
-    Google Fonts
+
+    - HTML
+    - CSS
+    - Javascript
+    - Font Awesome
+    - Google Fonts
 
   Additional Resources:
-    Google's PageSpeed insights - seriously a great tool for web development
-    A whiteboard
+
+    - Google's PageSpeed insights - seriously a great tool for web development
+    - A whiteboard
 
   Also got by with a little help from:
-    Lucy & Sam
+    - Lucy
+    - Sam
 
 We'll go a bit more in depth with future posts looking at standing the infrastructure up and configuration of Nginx to steps taken to achieve the mobile first responsive nature of the portfolio site.
