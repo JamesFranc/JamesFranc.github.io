@@ -10,13 +10,14 @@ layout: default
 
   <ul class="post-list row jekyllposts">
     {% for post in site.posts %}
+    <a class="post-link" href="{{ post.url | relative_url }}">
       <li class="card">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {{ post.title | escape }}
         </h2>
       </li>
+      </a>
     {% endfor %}
   </ul>
 
