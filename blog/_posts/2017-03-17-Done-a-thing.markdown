@@ -6,7 +6,7 @@ categories: jekyll first-post portfolio
 ---
  Yeah!   \
 
-
+  
  Did this thing.   \
 
 <!--excerpt-->
