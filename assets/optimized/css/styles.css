@@ -243,3 +243,4 @@ a hr{
 ul.post-list {
     padding-left: 0px;
 }
+hr{height:2px;border:none;color:#000;background-color: #AAA;width: 50%;text-align: left;margin-left: 25%;}
