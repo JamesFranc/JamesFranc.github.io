@@ -23,7 +23,7 @@ Here's a quick rundown of the project:
 
 
 ## Infrastructure:
-
+<br />
 
 ### Digital Ocean Droplet:
 
@@ -31,7 +31,7 @@ Here's a quick rundown of the project:
          - WebServer: Nginx
           - Database: MySQL
       - Preprocessor: PHP
-
+<br />
 
 ### Front End:
 
@@ -40,16 +40,16 @@ Here's a quick rundown of the project:
     - Javascript
     - Font Awesome
     - Google Fonts
-
+<br />
 
 #### Additional Resources:
 
     - Google's PageSpeed insights - seriously a great tool for web development
     - A whiteboard
-
+<br />
 
 ## Also got by with a little help from:
     - Lucy
     - Sam
-
+<br />
 We'll go a bit more in depth with future posts looking at standing the infrastructure up and configuration of Nginx to steps taken to achieve the mobile first responsive nature of the portfolio site.
