@@ -42,13 +42,13 @@ Here's a quick rundown of the project:
     - Google Fonts
 <br />
 
-#### Additional Resources:
+### Additional Resources:
 
     - Google's PageSpeed insights - seriously a great tool for web development
     - A whiteboard
 <br />
 
-## Also got by with a little help from:
+### Also got by with a little help from:
     - Lucy
     - Sam
 <br />
