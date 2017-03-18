@@ -24,12 +24,14 @@ Here's a quick rundown of the project:
 
 ## Infrastructure:
 
+
 ### Digital Ocean Droplet:
 
                 - OS: Ubuntu 16.04
          - WebServer: Nginx
           - Database: MySQL
       - Preprocessor: PHP
+
 
 ### Front End:
 
@@ -39,10 +41,12 @@ Here's a quick rundown of the project:
     - Font Awesome
     - Google Fonts
 
+
 #### Additional Resources:
 
     - Google's PageSpeed insights - seriously a great tool for web development
     - A whiteboard
+
 
 ## Also got by with a little help from:
     - Lucy
