@@ -4,9 +4,9 @@ title:  "So I've done this thing"
 date:   2017-03-17 18:49:00 -0000
 categories: jekyll first-post portfolio
 ---
-# Yeah!
+ Yeah!\\
 
-## Did this thing.
+ Did this thing.\\
 
 <!--excerpt-->
 
@@ -51,5 +51,5 @@ Here's a quick rundown of the project:
 ### Also got by with a little help from:
     - Lucy
     - Sam
-  
+
 We'll go a bit more in depth with future posts looking at standing the infrastructure up and configuration of Nginx to steps taken to achieve the mobile first responsive nature of the portfolio site.
