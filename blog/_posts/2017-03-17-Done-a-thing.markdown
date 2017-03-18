@@ -6,7 +6,7 @@ categories: jekyll first-post portfolio
 ---
  Yeah!   \
 
-  
+
  Did this thing.   \
 
 <!--excerpt-->
@@ -28,29 +28,30 @@ Here's a quick rundown of the project:
 
 ### Digital Ocean Droplet:
 
-                - OS: Ubuntu 16.04
-         - WebServer: Nginx
-          - Database: MySQL
-      - Preprocessor: PHP
+    -Ubuntu 16.04
+    -Nginx
+    -MySQL
+    -PHP
 
 
 ### Front End:
 
-    - HTML
-    - CSS
-    - Javascript
-    - Font Awesome
-    - Google Fonts
+    -HTML
+    -CSS
+    -Javascript
+    -Font Awesome
+    -Google Fonts
 
 
 ### Additional Resources:
 
-    - Google's PageSpeed insights - seriously a great tool for web development
-    - A whiteboard
+    -Google's PageSpeed insights - seriously a great tool for web development
+    -A whiteboard
 
 
 ### Also got by with a little help from:
-    - Lucy
-    - Sam
+    -Lucy
+    -Drew
+    -Sam
 
 We'll go a bit more in depth with future posts looking at standing the infrastructure up and configuration of Nginx to steps taken to achieve the mobile first responsive nature of the portfolio site.
