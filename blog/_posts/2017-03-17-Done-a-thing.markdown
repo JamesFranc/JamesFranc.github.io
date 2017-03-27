@@ -21,29 +21,29 @@ In the coming weeks/months there will be updates on how this site, both the port
 
 The portfolio page in particular was aimed at using primarily HTML, CSS, with minimal JS and little to no reliance on external libraries. For page load speed, low resource utilization, and just straight simplicity's sake.
 
-Here's a quick rundown of the project:
+Here's a quick rundown of the project.
 <br />
 
 
 
-  Digital Ocean Droplet:
+### Digital Ocean Droplet:
   - Ubuntu 16.04
   - Nginx
   - MySQL
   - PHP
 
-  Front End:
+### Front End:
   - HTML
   - CSS
   - Javascript
   - Font Awesome
   - Google Fonts
 
-  Additional Resources:
+### Additional Resources:
   - Google's PageSpeed insights - seriously a great tool
   - A whiteboard
 
-  Also got by with a little help from:
+### Also got by with a little help from:
   - Lucy
   - Drew
   - Sam
