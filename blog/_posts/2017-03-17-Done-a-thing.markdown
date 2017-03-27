@@ -23,6 +23,7 @@ The portfolio page in particular was aimed at using primarily HTML, CSS, with mi
 
 Here's a quick rundown of the project.
 <p>
+ &nbsp;
 </p>
 <br />
 
