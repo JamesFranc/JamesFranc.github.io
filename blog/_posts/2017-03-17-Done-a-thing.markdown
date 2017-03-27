@@ -29,7 +29,8 @@ Here's a quick rundown of the project.
   - Ubuntu 16.04
   - Nginx
   - MySQL
-  - PHP
+  - PHP (for Applications)
+  - Ruby (for Jekyll)
 
 ### Front End:
   - HTML
