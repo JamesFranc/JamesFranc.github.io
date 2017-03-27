@@ -24,35 +24,35 @@ The portfolio page in particular was aimed at using primarily HTML, CSS, with mi
 Here's a quick rundown of the project:
 
 
-## Infrastructure:
+ ## Infrastructure:
 
 
-### Digital Ocean Droplet:
+ ### Digital Ocean Droplet:
 
-    -Ubuntu 16.04
-    -Nginx
-    -MySQL
-    -PHP
-
-
-### Front End:
-
-    -HTML
-    -CSS
-    -Javascript
-    -Font Awesome
-    -Google Fonts
+     -Ubuntu 16.04
+     -Nginx
+     -MySQL
+     -PHP
 
 
-### Additional Resources:
+ ### Front End:
 
-    -Google's PageSpeed insights - seriously a great tool for web development
-    -A whiteboard
+     -HTML
+     -CSS
+     -Javascript
+     -Font Awesome
+     -Google Fonts
 
 
-### Also got by with a little help from:
-    -Lucy
-    -Drew
-    -Sam
+ ### Additional Resources:
+
+     -Google's PageSpeed insights - seriously a great tool for web development
+     -A whiteboard
+
+
+ ### Also got by with a little help from:
+     -Lucy
+     -Drew
+     -Sam
 
 We'll go a bit more in depth with future posts looking at standing the infrastructure up and configuration of Nginx to steps taken to achieve the mobile first responsive nature of the portfolio site.
