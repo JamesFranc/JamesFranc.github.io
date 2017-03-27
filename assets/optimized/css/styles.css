@@ -254,9 +254,9 @@ ul.post-list {
 }
 hr {height:2px;border:none;color:#000;background-color: #AAA;width: 50%;text-align: left;margin-left: 25%;}
 
-.post-content h1{text}
-.post-content h2{font-size: 2.0em;}
-.post-content h3{font-size: 1.8em;}
-.post-content h4{font-size: 1.6em;}
-.post-content h5{font-size: 1.4em;}
+.post-content h1{font-size: 2.4em;text-indent: 25px;margin-bottom: .25em;margin-top: .75em;}
+.post-content h2{font-size: 2.0em;text-indent: 25px;margin-bottom: .25em;margin-top: .75em;}
+.post-content h3{font-size: 1.8em;text-indent: 25px;margin-bottom: .25em;margin-top: .75em;}
+.post-content h4{font-size: 1.6em;text-indent: 25px;margin-bottom: .25em;margin-top: .75em;}
+.post-content h5{font-size: 1.4em;text-indent: 25px;margin-bottom: .25em;margin-top: .75em;}
 .post-content p{display: block;margin-top: 1em;margin-bottom: 1em;}
