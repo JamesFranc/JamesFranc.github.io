@@ -24,10 +24,10 @@ The portfolio page in particular was aimed at using primarily HTML, CSS, with mi
 Here's a quick rundown of the project:
 
 
- ## Infrastructure:
+##  Infrastructure:
 
 
- ### Digital Ocean Droplet:
+###  Digital Ocean Droplet:
 
      -Ubuntu 16.04
      -Nginx
@@ -35,7 +35,7 @@ Here's a quick rundown of the project:
      -PHP
 
 
- ### Front End:
+###  Front End:
 
      -HTML
      -CSS
@@ -44,13 +44,13 @@ Here's a quick rundown of the project:
      -Google Fonts
 
 
- ### Additional Resources:
+###  Additional Resources:
 
      -Google's PageSpeed insights - seriously a great tool for web development
      -A whiteboard
 
 
- ### Also got by with a little help from:
+###  Also got by with a little help from:
      -Lucy
      -Drew
      -Sam
