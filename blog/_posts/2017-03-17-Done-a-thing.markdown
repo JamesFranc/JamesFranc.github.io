@@ -40,7 +40,7 @@ Here's a quick rundown of the project:
   - Google Fonts
 
   Additional Resources:
-  - Google's PageSpeed insights - seriously a great tool for web development
+  - Google's PageSpeed insights - seriously a great tool
   - A whiteboard
 
   Also got by with a little help from:
