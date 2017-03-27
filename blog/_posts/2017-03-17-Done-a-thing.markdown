@@ -25,11 +25,11 @@ Here's a quick rundown of the project:
 
 
 ##  Infrastructure:
-#
+ 
 
 
 ###  Digital Ocean Droplet:
-#
+
 
      -Ubuntu 16.04
      -Nginx
@@ -39,7 +39,7 @@ Here's a quick rundown of the project:
 
 
 ###  Front End:
-#
+
 
      -HTML
      -CSS
@@ -50,7 +50,7 @@ Here's a quick rundown of the project:
 
 
 ###  Additional Resources:
-#
+
 
      -Google's PageSpeed insights - seriously a great tool for web development
      -A whiteboard
@@ -58,7 +58,7 @@ Here's a quick rundown of the project:
 
 
 ###  Also got by with a little help from:
-#
+
 
      -Lucy
      -Drew
