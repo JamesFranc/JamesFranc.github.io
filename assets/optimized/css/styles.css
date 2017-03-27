@@ -126,6 +126,9 @@ p{font-size: 1.2em;}
     width:250px;
     font-size: 1em;
   }
+  .jekyllposts{
+    text-align: center;
+  }
 }
 
 /* You might do landscape phones here if your content seems to need it */
@@ -133,6 +136,9 @@ p{font-size: 1.2em;}
   .bio > p{
     width:350px;
     font-size: 1em;
+  }
+  .jekyllposts{
+    text-align: center;
   }
 }
 
@@ -142,11 +148,14 @@ p{font-size: 1.2em;}
     width:500px;
     font-size: 1em;
   }
-
+  .jekyllposts{
+    text-align: center;
+  }
 }
 
 /* Perhaps bigger tablets */
 @media (min-width: 750px) {
+  
 }
 
 /* Desktop screen or landscape tablet */
