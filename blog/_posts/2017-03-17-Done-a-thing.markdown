@@ -4,14 +4,15 @@ title:  "So I've done this thing"
 date:   2017-03-17 18:49:00 -0000
 categories: jekyll first-post portfolio
 ---
- Yeah!   \
+ Yeah!   
 
 
- Did this thing.   \
+
+ Did this thing.   
 
 <!--excerpt-->
 
-Blogging or journaling, don't you dare call it a dairy! #dougFunnyThings, has never really been something I've kept up with.
+Blogging or journaling, has never really been something I've kept up with.
 That being said, I wanted to start a repository of tips, tricks, cheat-codes and the like when it comes to web development.
 
 This site has been a bit of a process for me. Having used AWS in the past for other projects, so naturally using Digital Ocean was the next logical step. Honestly, Digital Ocean's droplet interface a bit more straightforward than AWS's EC2 interface. That being said EC2 is geared more towards enterprise class software, so that's something to keep in mind.
