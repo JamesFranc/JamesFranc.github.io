@@ -25,7 +25,6 @@ Here's a quick rundown of the project:
 <br />
 
 
-##  Infrastructure:
 
   Digital Ocean Droplet:
   - Ubuntu 16.04
