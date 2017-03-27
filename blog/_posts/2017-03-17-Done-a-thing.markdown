@@ -22,10 +22,6 @@ In the coming weeks/months there will be updates on how this site, both the port
 The portfolio page in particular was aimed at using primarily HTML, CSS, with minimal JS and little to no reliance on external libraries. For page load speed, low resource utilization, and just straight simplicity's sake.
 
 Here's a quick rundown of the project.
-<p>
- &nbsp;
-</p>
-<br />
 
 
 
