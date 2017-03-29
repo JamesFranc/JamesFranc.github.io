@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating tthe portfolio"
+title:  "Creating the portfolio"
 date:   2017-03-29 07:26:00 -0000
 categories: portfolio motivation
 ---
